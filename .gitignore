@@ -1,0 +1,40 @@
+# Secrets
+.env
+*.env.local
+
+# Java
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local database dumps
+*.sql.bak
+
+# Local debug files
+task-error.txt
+backend-spring/task-error.txt
