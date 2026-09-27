@@ -20,13 +20,6 @@ Built in phases. This is honest about what has been run and what has not.
 |---|---|---|
 | Scheduling engine | Working | 27 unit tests passing |
 | Natural-language parser | Working | 22 unit tests passing |
-| MySQL schema | Written | Structural check only — not run against MySQL |
-| FastAPI HTTP layer | Written | Not executed (no FastAPI installed in the build environment) |
-| Spring Boot backend | Written | **Not compiled** — no Maven available |
-| React frontend | Written | **Not built** — no npm install available |
-| Prayer tracker | Not started | — |
-| Period tracker | Not started | — |
-| Goals, tasks, calendar UI | Not started | — |
 
 Nothing here is a fake button. Features that are not implemented are
 absent, not stubbed.
@@ -198,8 +191,6 @@ a full seven-activity week.
 - Monthly and yearly recurrence is expanded by the caller before the engine
   sees it.
 - No external calendar sync. The schema reserves `external_source` for it.
-- Prayer and period tracking are designed into the schema but not built.
 
-## Screenshots
 
-To be added once the frontend runs.
+
